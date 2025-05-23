@@ -105,6 +105,8 @@ namespace бл€какойжераз€переделоваю {
 			// 
 			// buttonFormul
 			// 
+			this->buttonFormul->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->buttonFormul->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->buttonFormul->Location = System::Drawing::Point(14, 135);
@@ -129,8 +131,6 @@ namespace бл€какойжераз€переделоваю {
 			// 
 			// Home1
 			// 
-			this->Home1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
 			this->Home1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Home1->Location = System::Drawing::Point(193, 135);

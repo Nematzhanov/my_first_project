@@ -29,7 +29,7 @@ int Formulas::F2_loop(int n) {
 int Formulas::F9_recursion(int& counter, int n) {
     counter++;
     if (n == 1) return 1;
-    return (n % 2 == 0) ? n + 2 * F9_recursion(counter, n - 1)  
+    return (n % 2 == 0) ? n + 2 * F9_recursion(counter, n - 1)
         : 1 + 3 * F9_recursion(counter, n - 2);
 }
 
